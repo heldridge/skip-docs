@@ -85,6 +85,7 @@ Lets add a link to each of our dog pages to a page called `dog-links.j2`
             {{ dog_page.data.name }}
         </a>
     </li>
+    {% endfor %}
 </ul>
 ```
 

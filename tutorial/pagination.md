@@ -28,6 +28,7 @@ pagination:
             {{ dog_page.data.name }}
         </a>
     </li>
+    {% endfor %}
 </ul>
 ```
 
