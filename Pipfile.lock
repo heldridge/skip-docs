@@ -174,11 +174,11 @@
         },
         "skip-ssg": {
             "hashes": [
-                "sha256:145c29c915ff318836a717a230e20848d497089e72dae04e1057940a01620c47",
-                "sha256:b3a501dd6f3bc3b1ae844a8c68dc09363a65485d67b3924151224d62df08ca4a"
+                "sha256:6121178a070e3953c12f0734744bbbc1057410d7c81025d132b90aabc1461297",
+                "sha256:8b0c35e727b7bcb001bb20d7595764d5224e38066b466fe219532aebb49acf0c"
             ],
             "index": "pypi",
-            "version": "==0.1.8"
+            "version": "==0.1.9"
         },
         "watchgod": {
             "hashes": [
