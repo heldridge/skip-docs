@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "389309de5e88ee7ca0ea5df848bf2d048ecb42f398356e2fb1186ff8b292e422"
+            "sha256": "47c4bcad62fb35b8a4c77b1979237567fd8a3329553e00d4874b4d1ee3c1b53e"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.9"
+            "python_version": "3.8"
         },
         "sources": [
             {
@@ -174,11 +174,11 @@
         },
         "skip-ssg": {
             "hashes": [
-                "sha256:0fb349e41ce3d8f388971167dd19f5e6b7fae41a89f7d07cb5edcbe62e936e88",
-                "sha256:ecc54fbf6505bb423f541cc9446a7836c50139fb5662f08f42fe911c236e6259"
+                "sha256:48864e3f85cedbac0f1a252afb71b2cd839d11e320b0cc4dbf5a97ffecd7c0c6",
+                "sha256:a0da2b0b8d88db24b17b241273afcd7467fbe3d218b7ae927183f9300e2a9359"
             ],
             "index": "pypi",
-            "version": "==0.1.5"
+            "version": "==0.1.6"
         },
         "watchgod": {
             "hashes": [
