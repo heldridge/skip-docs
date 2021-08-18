@@ -1,0 +1,12 @@
+arrow==1.1.1
+gitignore-parser==0.0.8
+Jinja2==3.0.1
+Markdown==3.3.4
+MarkupSafe==2.0.1
+Pygments==2.10.0
+python-dateutil==2.8.2
+python-frontmatter==1.0.0
+PyYAML==5.4.1
+six==1.16.0
+skip-ssg==0.1.5
+watchgod==0.7

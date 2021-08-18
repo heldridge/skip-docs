@@ -1,3 +1,5 @@
 node_modules/
 css/tailwind.css
 _site/
+venv/
+.vscode/
