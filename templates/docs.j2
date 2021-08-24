@@ -55,11 +55,11 @@
 
         <ul>
             <li class="px-1">
-                <a href="{{ collections.docs[0].get_permalink() }}">
+                <a href="{{ collections.advanced[0].get_permalink() }}">
                     <h2 class="text-lg dark:text-gray-200 font-semibold hover:underline">Advanced</h2>
                 </a>
             </li>
-            {% for doc in collections.docs %}
+            {% for doc in collections.advanced %}
             <li
                 {% if page.get_permalink() == doc.get_permalink() %}
                 aria-current="page"
