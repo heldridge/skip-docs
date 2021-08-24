@@ -90,3 +90,5 @@ Lets add a link to each of our dog pages to a page called `dog-links.j2`
 ```
 
 Each page in the collection has a function `get_permalink()` that generates its url, as well as a `data` attribute that lets you use any of the data associated with the page. For more about what you can get from a page in a collection, see the [docs](/)
+
+Now that you know about collections, you can look into [pagination](/tutorial/pagination/)
