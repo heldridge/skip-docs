@@ -50,6 +50,33 @@
             </li>
             {% endfor %}
         </ul>
+
+        <div class="w-full h-px bg-gray-300 mt-1 mb-2 mx-1"></div>
+
+        <ul>
+            <li class="px-1">
+                <a href="{{ collections.docs[0].get_permalink() }}">
+                    <h2 class="text-lg dark:text-gray-200 font-semibold hover:underline">Docs</h2>
+                </a>
+            </li>
+            {% for doc in collections.docs %}
+            <li
+                {% if page.get_permalink() == doc.get_permalink() %}
+                aria-current="page"
+                class="bg-indigo-50 dark:bg-indigo-900 px-1 rounded"
+                {% else %}
+                class="px-1"
+                {% endif %}
+            >
+                <a 
+                    href="{{ doc.get_permalink() }}"
+                    class="hover:underline"    
+                >
+                    {{ doc.data.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
     </nav>
         
     <main class="flex flex-col items-center mx-1 md:mx-0 mb-80">
