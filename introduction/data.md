@@ -38,7 +38,7 @@ fruits:
 ---
 
 <ul>
-{% for fruit in fruits %}
+{% for fruit in data.fruits %}
     <li>{{ fruit }}</li>
 {% endfor %}
 </ul>
@@ -78,7 +78,7 @@ fruits:
 ---
 
 <ul>
-{% for fruit in fruits %}
+{% for fruit in data.fruits %}
     <li>{{ fruit }}</li>
 {% endfor %}
 </ul>
@@ -109,7 +109,7 @@ And replace its content with the following
 # data/vegetables.py
 
 def get_data():
-    return ["broccoli", "squash", "carrot"]
+    return {"vegetables": ["broccoli", "squash", "carrot"]}
 ```
 
 If you generate the site again, it will work just the same.
