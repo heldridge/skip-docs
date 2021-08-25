@@ -4,7 +4,7 @@ title: Command-line Usage
 
 # Command-line Usage
 
-## To run skip 
+## To run Skip 
 
 ``` bash
 skip
@@ -72,5 +72,5 @@ The `img` folder and everything it contains will be copied to the `_site` direct
 skip --fail-on-error
 ```
 
-By default skip ignores data files that cause an error when it tries to read the data from them.
+By default Skip ignores data files that cause an error when it tries to read the data from them.
 When you set this flag, the error will be raised and the build will fail.
