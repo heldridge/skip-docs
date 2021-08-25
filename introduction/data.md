@@ -137,4 +137,4 @@ The data from `global-data.json` will be available in all pages, but the data fr
 
 
 
-Armed with the knowledge of data, you can now move on to [layouts](/tutorial/layouts/)
+Armed with the knowledge of data, you can now move on to [layouts](/introduction/layouts/)

@@ -39,4 +39,4 @@ If we had more dogs, link pages would be generated at `dog-links/2/index.html`, 
 
 And that's it!
 We have gone over the core concepts of Skip: project structure, layouts, data, collections, and pagination.
-If you want to know more, check out the [docs](/).
+If you want to know more, check out the [advanced topics](/advanced/command-line-usage/).

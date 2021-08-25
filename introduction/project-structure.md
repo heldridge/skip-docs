@@ -33,4 +33,4 @@ You should now have site pages at the `/subdir/1/` and `/subdir/2/` paths.
 
 ## 
 
-You're now ready to learn about [data](/tutorial/data/)
+You're now ready to learn about [data](/introduction/data/)

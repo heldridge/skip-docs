@@ -33,4 +33,4 @@ And run `skip`!
 You should now be able to view your generated pages at [`localhost:8080`](localhost:8080)!
 
 ## 
-You can now continue on to [project structure](/tutorial/project-structure/)
+You can now continue on to [project structure](/introduction/project-structure/)

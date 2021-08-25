@@ -19,4 +19,4 @@ echo '# Hello World' > index.md
 skip
 ```
 
-Ready for more? Head over to the [tutorial](/tutorial/getting-started)
+Ready for more? Head over to the [docs](/introduction/getting-started)

@@ -28,13 +28,13 @@
 
         <ul>
             <li class="px-1">
-                <a href="{{ collections.tutorial[0].get_permalink() }}">
-                    <h2 class="text-lg dark:text-gray-200 font-semibold hover:underline">Tutorial</h2>
+                <a href="{{ collections.introduction[0].get_permalink() }}">
+                    <h2 class="text-lg dark:text-gray-200 font-semibold hover:underline">Introduction</h2>
                 </a>
             </li>
-            {% for tutorial in collections.tutorial %}
+            {% for intro in collections.introduction %}
             <li
-                {% if page.get_permalink() == tutorial.get_permalink() %}
+                {% if page.get_permalink() == intro.get_permalink() %}
                 aria-current="page"
                 class="bg-indigo-50 dark:bg-indigo-900 px-1 rounded"
                 {% else %}
@@ -42,10 +42,10 @@
                 {% endif %}
             >
                 <a 
-                    href="{{ tutorial.get_permalink() }}"
+                    href="{{ intro.get_permalink() }}"
                     class="hover:underline"    
                 >
-                    {{ tutorial.data.title }}
+                    {{ intro.data.title }}
                 </a>
             </li>
             {% endfor %}
