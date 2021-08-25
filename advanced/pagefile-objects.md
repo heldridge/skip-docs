@@ -1,5 +1,6 @@
 ---
 title: PageFile Objects
+date: 2021-02-04
 ---
 # PageFile Objects
 
@@ -14,7 +15,7 @@ Each `PageFile` maps to a single file on disk.
 
 **tags**: (`set(str)`): The tags the page has
 
-**date**: If set, the date associated with this page 
+**date**: If set, the date associated with this page, otherwise the modified time of the file.
 
 ## PageFile Methods
 

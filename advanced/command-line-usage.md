@@ -1,5 +1,6 @@
 ---
 title: Command-line Usage
+date: 2021-01-01
 ---
 
 # Command-line Usage

@@ -1,5 +1,6 @@
 ---
 title: Data Hierarchy
+date: 2021-01-02
 ---
 # Data Hierarchy
 
