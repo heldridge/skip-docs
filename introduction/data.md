@@ -100,7 +100,7 @@ To do so, add a `get_data()` function to the file.
 Rename `vegetables.json` to `vegetables.py`:
 
 ``` bash
->>> mv vegetables.json vegetables.py
+>>> mv data/vegetables.json data/vegetables.py
 ```
 
 And replace its content with the following
