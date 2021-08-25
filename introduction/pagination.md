@@ -60,7 +60,7 @@ pagination:
     {% endfor %}
 </ul>
 
-{% if index < len(collections.dogs)/2 - 1 %}
+{% if index < (collections.dogs|length)/2 - 1 %}
 <a href="/dog-links/{{ index + 1}}/">Next page</a>
 {% endif %}
 ```
