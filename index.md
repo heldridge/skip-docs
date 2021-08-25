@@ -19,4 +19,4 @@ echo '# Hello World' > index.md
 skip
 ```
 
-Ready for more? Head over to the [docs](/introduction/getting-started), or checkout the project on [Github](https://github.com/heldridge/skip).
+Ready for more? Head over to the [docs](/introduction/getting-started), or check out the project on [Github](https://github.com/heldridge/skip).
