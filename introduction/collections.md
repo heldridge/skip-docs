@@ -67,7 +67,7 @@ name: Labrador
 A popular retriever dog
 ```
 
-Great! After generating the site again you should now have these three pages in a `/dog/` folder.
+Great! After generating the site again you should now have these three pages in a `/dogs/` folder.
 
 Skip takes each file that has a `tags` attribute and adds it to a collection for each of its tags.
 So if we want to loop over our dog pages, we would use the `dogs` collection.
