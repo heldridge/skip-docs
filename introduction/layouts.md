@@ -31,7 +31,7 @@ Now, change `index.md` from the Getting Started introduction to the following:
 ``` markdown
 ---
 
-layout: my-template
+layout: my-template.j2
 
 ---
 
